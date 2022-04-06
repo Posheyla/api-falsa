@@ -1,0 +1,19 @@
+{
+  "name": "api-falsa-server",
+  "version": "1.0.0",
+  "description": "Servidor de API falsa",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Luisa Chávez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.1.2"
+  }
+}
